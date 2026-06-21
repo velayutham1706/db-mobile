@@ -1,0 +1,66 @@
+name: db_hifi
+description: "DB Hi-Fi — App for you Deeksha"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  share_plus: ^10.0.0
+
+  shared_preferences: ^2.3.0
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  google_sign_in: ^6.0.0
+
+  # Audio
+  just_audio: ^0.9.40
+
+  # UI
+  animate_do: ^3.3.4
+  cached_network_image: ^3.3.0
+  google_fonts: ^6.2.1
+
+  # HTTP
+  http: ^1.2.0
+  just_audio_background: ^0.0.1-beta.11
+
+  # In-app updates
+  package_info_plus: ^8.0.0
+  open_filex: ^4.5.0
+  path_provider: ^2.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
