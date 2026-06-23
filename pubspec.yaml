@@ -1,7 +1,7 @@
 name: db_hifi
 description: "DB Hi-Fi — App for you Deeksha"
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.2+2
 
 environment:
   sdk: ^3.5.0
