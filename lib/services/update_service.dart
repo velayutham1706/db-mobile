@@ -12,7 +12,8 @@ import '../widgets/shared.dart';
 /// Point this at your hosted version.json
 /// e.g. a GitHub raw URL or release asset:
 /// https://raw.githubusercontent.com/you/repo/main/version.json
-const String _versionUrl = 'https://YOUR_HOST/version.json';
+const String _versionUrl =
+    'https://raw.githubusercontent.com/velayutham1706/db-mobile/master/version.json';
 
 class UpdateInfo {
   final int versionCode;
